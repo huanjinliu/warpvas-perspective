@@ -1,4 +1,4 @@
-# @warpvas/perspective
+# warpvas-perspective
 
 [English](README.md) | [中文](README.cn.md)
 
@@ -7,16 +7,16 @@ This library is a derivative strategy library for [warpvas](https://github.com/h
 ## Installation
 
 ```shell
-npm i -S warpvas @warpvas/perspective
+npm i -S warpvas warpvas-perspective
 # or
-pnpm add warpvas @warpvas/perspective
+pnpm add warpvas warpvas-perspective
 ```
 
 ## Usage
 
 ```typescript
 import { Warpvas } from 'warpvas';
-import perspective from '@warpvas/perspective';
+import perspective from 'warpvas-perspective';
 
 const warpvas = new Warpvas(image);
 warpvas.setSplitStrategy(perspective);

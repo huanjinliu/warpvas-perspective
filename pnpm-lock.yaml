@@ -5,13 +5,13 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  '@warpvas/perspective': 'link:'
+  'warpvas-perspective': 'link:'
 
 importers:
 
   .:
     dependencies:
-      '@warpvas/perspective':
+      'warpvas-perspective':
         specifier: 'link:'
         version: 'link:'
       bezier-js:

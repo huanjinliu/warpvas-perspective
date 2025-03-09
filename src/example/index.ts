@@ -1,5 +1,5 @@
 import { Warpvas } from 'warpvas';
-import perspective from '@warpvas/perspective';
+import perspective from 'warpvas-perspective';
 
 const main = async function () {
   const image = new Image();

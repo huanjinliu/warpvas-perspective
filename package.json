@@ -1,5 +1,5 @@
 {
-  "name": "@warpvas/perspective",
+  "name": "warpvas-perspective",
   "version": "1.0.0",
   "type": "module",
   "description": "A derivative strategy library for warpvas enabling perspective transformation effects",
@@ -59,13 +59,13 @@
   "peerDependencies": {
   },
   "dependencies": {
-    "@warpvas/perspective": "link:",
+    "warpvas-perspective": "link:",
     "bezier-js": "^6.1.4",
     "warpvas": "^1.0.0"
   },
   "pnpm": {
     "overrides": {
-      "@warpvas/perspective": "link:"
+      "warpvas-perspective": "link:"
     }
   }
 }

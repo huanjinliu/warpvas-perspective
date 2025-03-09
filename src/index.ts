@@ -18,7 +18,7 @@ type Coord = { x: number; y: number };
  * @example
  * ```typescript
  * import { Warpvas } from 'warpvas';
- * import perspective from '@warpvas/perspective';
+ * import perspective from 'warpvas-perspective';
  *
  * const warpvas = new warpvas(image);
  * warpvas.setSplitStrategy(perspective);
