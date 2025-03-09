@@ -1,6 +1,6 @@
 {
   "name": "warpvas-perspective",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "A derivative strategy library for warpvas enabling perspective transformation effects",
   "keywords": [
@@ -56,8 +56,7 @@
     "typescript": "^5.0.2"
   },
   "license": "MIT",
-  "peerDependencies": {
-  },
+  "peerDependencies": {},
   "dependencies": {
     "warpvas-perspective": "link:",
     "bezier-js": "^6.1.4",
