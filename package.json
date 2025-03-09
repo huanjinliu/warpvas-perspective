@@ -1,0 +1,71 @@
+{
+  "name": "@warpvas/perspective",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A derivative strategy library for warpvas enabling perspective transformation effects",
+  "keywords": [
+    "warpvas",
+    "perspective",
+    "canvas",
+    "distortion"
+  ],
+  "author": "huanjinliu <huanjin.liu@foxmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huanjinliu/warpvas-perspective.git"
+  },
+  "bugs": {
+    "url": "https://github.com/huanjinliu/warpvas-perspective/issues"
+  },
+  "scripts": {
+    "dev": "pnpm link . && cross-env NODE_ENV=development rollup --config -w",
+    "build": "rollup --config",
+    "watch": "rollup --config -w",
+    "prettier": "prettier --write ."
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "README.cn.md"
+  ],
+  "brower": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/bezier-js": "^4.1.3",
+    "@typescript-eslint/eslint-plugin": "5.36.2",
+    "@typescript-eslint/parser": "5.36.2",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.23.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.7",
+    "rollup": "^3.20.2",
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^2.0.2",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.2"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+  },
+  "dependencies": {
+    "@warpvas/perspective": "link:",
+    "bezier-js": "^6.1.4",
+    "warpvas": "^1.0.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "@warpvas/perspective": "link:"
+    }
+  }
+}
