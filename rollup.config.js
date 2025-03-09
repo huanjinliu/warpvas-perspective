@@ -14,7 +14,7 @@ const buildQueue = [
       {
         file: 'dist/index.js',
         format: 'umd',
-        name: 'index',
+        name: 'WarpvasPerspective',
         sourcemap: true,
       },
       {
